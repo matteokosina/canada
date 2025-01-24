@@ -24,8 +24,15 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy
+      - name: Build and generate Javadoc
+        run: mvn clean package javadoc:javadoc
+
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.GITHUB_TOKEN }} # GitHub provides a token automatically
           publish_dir: ./build
+          force_orphan: true
+          keep_files: true
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"

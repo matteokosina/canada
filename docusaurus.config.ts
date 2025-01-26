@@ -68,15 +68,15 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/leaf.png',
       },
       items: [
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com',
+          href: 'https://github.com/matteokosina/canada',
           label: 'GitHub',
           position: 'right',
         },
@@ -90,11 +90,11 @@ const config: Config = {
           items: [
             {
               label: 'LinkedIn',
-              href: 'https://github.com',
+              href: 'https://linkedin.com/in/matteokosina',
             },
             {
               label: 'Instagram',
-              href: 'https://github.com',
+              href: 'https://matteokosina.github.io/canada',
             },
           ],
         },
@@ -107,7 +107,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/',
+              href: 'https://github.com/matteokosina',
             },
           ],
         },

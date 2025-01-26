@@ -1,0 +1,30 @@
+.title {
+    font-size: 4rem;
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 2s ease, transform 2s ease;
+}
+
+.title.animate-title {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.subtitle {
+    color: gray;
+}
+
+.description {
+    color: #6b7280;
+    margin-top: 10px;
+    font-size: 1.125rem;
+}
+
+.vancouver-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}

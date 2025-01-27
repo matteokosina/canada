@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'Vancouver',
   tagline: 'A Semester Abroad',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/leaf.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -83,7 +83,6 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'dark',
       links: [
         {
           title: 'Socials',

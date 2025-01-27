@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcanada=self.webpackChunkcanada||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/canada/blog/welcome","unlisted":false,"date":"2025-01-24T00:00:00.000Z"}]}')}}]);

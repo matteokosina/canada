@@ -13,12 +13,12 @@ import WorldMap from "@/components/ui/world-map";
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-      <div className=" py-40 dark:bg-black bg-white w-full">
-          <div className="max-w-7xl mx-auto text-center">
-              <p className="font-bold text-xl md:text-4xl dark:text-white text-black">
-                  Remote{" "}
+      <div className=" py-20 dark:bg-black bg-white w-full">
+          <div className="max-w-9xl mx-auto text-center">
+              <p className="font-bold text-9xl md:text-7xl dark:text-white text-black">
+                  Kanada, {" "}
                   <span className="text-neutral-400">
-            {"Connectivity".split("").map((word, idx) => (
+            {"Vancouver".split("").map((word, idx) => (
                 <motion.span
                     key={idx}
                     className="inline-block"
@@ -31,10 +31,8 @@ function HomepageHeader() {
             ))}
           </span>
               </p>
-              <p className="text-sm md:text-lg text-neutral-500 max-w-2xl mx-auto py-4">
-                  Break free from traditional boundaries. Work from anywhere, at the
-                  comfort of your own studio apartment. Perfect for Nomads and
-                  Travellers.
+              <p className="text-sm md:text-xl text-neutral-500 max-w-3xl mx-auto py-4">
+                  Chasing Growth, Embracing Adventure: My Vancouver Rotation Journey! 🚀
               </p>
           </div>
           <WorldMap
@@ -79,11 +77,10 @@ export default function Home(): ReactNode {
     const {siteConfig} = useDocusaurusContext();
     return (
         <Layout
-            title={`Hello from ${siteConfig.title}`}
-            description="Description will go into a meta tag in <head />">
+            title={`${siteConfig.title}`}
+            description="Rotation abroad in Vancouver, Canada">
             <HomepageHeader/>
             <main>
-                <HomepageFeatures/>
             </main>
         </Layout>
     );

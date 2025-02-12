@@ -89,7 +89,7 @@ const config: Config = {
           items: [
             {
               label: 'LinkedIn',
-              href: 'www.linkedin.com/in/matteokosina',
+              href: 'https://www.linkedin.com/in/matteokosina',
             },
           ],
         },

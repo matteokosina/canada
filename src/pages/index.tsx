@@ -6,16 +6,17 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
 import { motion} from "framer-motion";
-
 import styles from './index.module.css';
+import ImageText from "@/components/Texts/Text";
 import WorldMap from "@/components/ui/world-map";
+import {BackgroundGradientAnimation} from "@/components/ui/background-gradient-animation";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
       <div className=" py-20 dark:bg-black bg-white w-full">
           <div className="max-w-9xl mx-auto text-center">
-              <p className="font-bold text-90% dark:text-white text-black">
+              <p className="font-bold text-6xl dark:text-white text-black">
                   Kanada, {" "}
                   <span className="text-neutral-400">
             {"Vancouver".split("").map((word, idx) => (
@@ -81,7 +82,62 @@ export default function Home(): ReactNode {
             description="Rotation abroad in Vancouver, Canada">
             <HomepageHeader/>
             <main>
+                <BackgroundGradientAnimation>
+                    <div className="absolute z-40 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl">
+                        <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
+                            {timeUntil(new Date("2025-06-27")) }
+                        </p>
+                    </div>
+                </BackgroundGradientAnimation>
+                <ImageText
+                    left={true}
+                    title="Canada"
+                    text="Canada, the second-largest country in the world, is known for its breathtaking natural landscapes and cultural diversity."
+                    imageUrl="./img/canada-patch.png"
+                />
+                <ImageText
+                    left={false}
+                    title="Vancouver"
+                    text="Vancouver is the largest city in British Columbia, it is a vibrant city known for its stunning landscapes and multicultural population."
+                    imageUrl="./img/people-patch.png"
+                />
             </main>
         </Layout>
     );
+}
+
+function timeUntil(targetDate: Date): string {
+    const now = new Date();
+    let current = new Date(now);
+
+    let years = 0;
+    let months = 0;
+    let weeks = 0;
+    let days = 0;
+
+    // Calculate years
+    while (new Date(current.getFullYear() + 1, current.getMonth(), current.getDate()) <= targetDate) {
+        current.setFullYear(current.getFullYear() + 1);
+        years++;
+    }
+
+    // Calculate months
+    while (new Date(current.getFullYear(), current.getMonth() + 1, current.getDate()) <= targetDate) {
+        current.setMonth(current.getMonth() + 1);
+        months++;
+    }
+
+    // Calculate weeks
+    while (new Date(current.getFullYear(), current.getMonth(), current.getDate() + 7) <= targetDate) {
+        current.setDate(current.getDate() + 7);
+        weeks++;
+    }
+
+    // Calculate days
+    while (new Date(current.getFullYear(), current.getMonth(), current.getDate() + 1) <= targetDate) {
+        current.setDate(current.getDate() + 1);
+        days++;
+    }
+
+    return `${years > 0 ? years + " years, " : ""}${months > 0 ? months + " months, " : ""}${weeks > 0 ? weeks + " weeks, " : ""}${days} days`;
 }

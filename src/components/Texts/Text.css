@@ -1,0 +1,52 @@
+.text-layout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 0;
+}
+
+.layout-left {
+    flex-direction: row;
+}
+
+.layout-right {
+    flex-direction: row-reverse; /* Ensure this is working */
+}
+
+.layout-image {
+    width: 18rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 5rem;
+}
+
+.layout-text {
+    max-width: 600px;
+}
+
+.layout-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.layout-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .text-layout {
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .layout-image {
+        margin: 20px 0; /* Add spacing around the image */
+    }
+
+    .layout-text {
+        text-align: center; /* Center text for better appearance */
+    }
+}

@@ -15,7 +15,7 @@ function HomepageHeader() {
   return (
       <div className=" py-20 dark:bg-black bg-white w-full">
           <div className="max-w-9xl mx-auto text-center">
-              <p className="font-bold text-9xl md:text-7xl dark:text-white text-black">
+              <p className="font-bold text-90% dark:text-white text-black">
                   Kanada, {" "}
                   <span className="text-neutral-400">
             {"Vancouver".split("").map((word, idx) => (

@@ -1,9 +1,9 @@
 travel:
   label: Travel 🧳
-  permalink: /facebook
-  description: Facebook tag description
+  permalink: /travel
+  description: Travel the world with us
 
 canada:
   label: Canada 🇨🇦
-  permalink: /hello
-  description: Hello tag description
+  permalink: /canada
+  description: Explore the beauty of Canada

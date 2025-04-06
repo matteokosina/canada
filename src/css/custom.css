@@ -5,9 +5,9 @@
  */
 
 /* Import the fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 
 /* You can override the default Infima variables here. */
 :root {
@@ -50,7 +50,7 @@
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
+[data-theme="dark"] {
   /* Preserve Docusaurus dark mode variables */
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -178,7 +178,7 @@ body {
 
 /* Ensure shadcn components use the correct font */
 :not(.markdown) {
-  font-family: theme('fontFamily.sans');
+  font-family: theme("fontFamily.sans");
 }
 
 /* Apply shadcn styles to Docusaurus components */
@@ -189,7 +189,8 @@ body {
 
 .navbar__brand,
 .navbar__link,
-.navbar__toggle,
+.navbar__toggle {
+}
 .navbar-sidebar__brand {
   color: hsl(var(--foreground));
   display: inline-flex;
@@ -212,7 +213,7 @@ body {
 }
 
 /* Style the theme toggle */
-.navbar__items--right>div[class*='toggle'] {
+.navbar__items--right > div[class*="toggle"] {
   background-color: transparent;
   color: hsl(var(--muted-foreground));
 }

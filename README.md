@@ -1,4 +1,4 @@
-# Vancouver Blog
+# Vancouver Blog 🇨🇦
 
 Welcome to my blog about Vancouver! This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 

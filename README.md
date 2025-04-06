@@ -1,41 +1,35 @@
-# Website
+# Vancouver Blog
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to my blog about Vancouver! This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
 
+To install the dependencies, run:
+
 ```
-$ yarn
+$ npm install
 ```
 
 ### Local Development
 
+To start a local development server and open a browser window, use:
+
 ```
-$ yarn start
+$ npm start
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Most changes will be reflected live without needing to restart the server.
 
 ### Build
 
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
+To generate static content into the `build` directory, run:
 
 ```
-$ USE_SSH=true yarn deploy
+$ npm run build
 ```
 
-Not using SSH:
+The generated content can be served using any static content hosting service.
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+### About Vancouver
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This blog explores the vibrant city of Vancouver, known for its stunning natural beauty, diverse culture, and thriving tech scene. Stay tuned for posts about local attractions, food, and life in this amazing city!

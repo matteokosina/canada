@@ -3,7 +3,6 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import DottedMap from "dotted-map";
-import { useTheme } from "next-themes";
 
 interface MapProps {
   dots?: Array<{
@@ -20,13 +19,11 @@ export default function WorldMap({
   const svgRef = useRef<SVGSVGElement>(null);
   const map = new DottedMap({ height: 100, grid: "diagonal" });
 
-  const { theme } = useTheme();
-
   const svgMap = map.getSVG({
     radius: 0.22,
-    color: theme === "dark" ? "#FFFFFF40" : "#00000040",
+    color: "#db5c5c",
     shape: "circle",
-    backgroundColor: theme === "dark" ? "black" : "white",
+    backgroundColor: "00FFFFFF",
   });
 
   const projectPoint = (lat: number, lng: number) => {

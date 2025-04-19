@@ -20,16 +20,6 @@ $ npm start
 
 Most changes will be reflected live without needing to restart the server.
 
-### Build
-
-To generate static content into the `build` directory, run:
-
-```
-$ npm run build
-```
-
-The generated content can be served using any static content hosting service.
-
 # Examples and Code-Snippets
 ## Image Carousel
 > Show multiple images with captions at once in a clean and uncluttered way while staying theme-compliant (dark/light mode aware)!

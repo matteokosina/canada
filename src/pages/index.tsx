@@ -79,7 +79,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Rotation abroad in Vancouver, Canada"
+      description="Rotation Abroad in Vancouver, Canada"
     >
       <HomepageHeader />
       <main>

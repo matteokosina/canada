@@ -6,7 +6,7 @@ import aliasPlugin from "./plugins/alias-config.cjs";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Rotation abroad",
+  title: "Rotation Abroad",
   tagline: "Follow me on my adventure in Vancouver",
   favicon: "img/leaf.png",
 
@@ -75,7 +75,7 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/leaf.png",
     navbar: {
-      title: "Rotation abroad",
+      title: "Rotation Abroad",
       logo: {
         alt: "Logo",
         src: "img/leaf.png",

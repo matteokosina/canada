@@ -6,7 +6,7 @@
     "create-post": "node ./automation/create-post.js",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build": "docusaurus build && mv ./google5239173c14d537e9.html ./build/google5239173c14d537e9.html",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

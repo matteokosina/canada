@@ -174,5 +174,5 @@ function timeUntil(targetDate: Date): string {
     return `${years > 0 ? years == 1 ? years + " Jahr, " : years + " Jahre, " : ""}
     ${months > 0 ? months == 1 ? months + " Monat, " : months + " Monate, " : ""}
     ${weeks > 0 ? weeks == 1 ? weeks + " Woche, " : weeks + " Wochen, " : ""}
-    ${days} Tage`;
+    ${days == 1 ? days + " Tag" : days + " Tage"}`;
 }

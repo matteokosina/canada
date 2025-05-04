@@ -1,9 +1,9 @@
 travel:
-  label: Travel 🧳
+  label: Reise 🧳
   permalink: /travel
-  description: Travel the world with us
+  description: Begleite uns auf unserer Reise
 
 canada:
-  label: Canada 🇨🇦
+  label: Kanada 🇨🇦
   permalink: /canada
-  description: Explore the beauty of Canada
+  description: Entdecke die Schönheit Kanadas mit uns

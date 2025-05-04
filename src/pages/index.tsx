@@ -28,7 +28,7 @@ function HomepageHeader() {
                     </span>
                 </p>
                 <p className="text-sm md:text-xl text-neutral-500 max-w-3xl mx-auto py-4">
-                    Chasing Growth, Embracing Adventure: My Vancouver Rotation Journey! 🚀
+                    Lernen 📚, arbeiten 👨🏽‍💻, erleben 🗺️ – 8000 km von zu Hause entfernt.
                 </p>
             </div>
             <WorldMap

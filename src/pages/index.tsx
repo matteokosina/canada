@@ -1,12 +1,7 @@
 import type { ReactNode } from "react";
-import clsx from "clsx";
-import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
-import HomepageFeatures from "@site/src/components/HomepageFeatures";
-import Heading from "@theme/Heading";
 import { motion } from "framer-motion";
-import styles from "./index.module.css";
 import ImageText from "@/components/Texts/Text";
 import WorldMap from "@/components/ui/world-map";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";

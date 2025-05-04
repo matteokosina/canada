@@ -75,10 +75,10 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
-    const { siteConfig } = useDocusaurusContext();
+
     return (
         <Layout
-            title={`${siteConfig.title}`}
+            title={`Auslandspraxis in Kanada`}
             description="Rotation Abroad in Vancouver, Canada"
         >
             <HomepageHeader />

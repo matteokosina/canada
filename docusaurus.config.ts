@@ -82,6 +82,7 @@ const config: Config = {
       },
       items: [
         { to: "/blog", label: "Blog", position: "left" },
+        { to: "/gallery/Gallery", label: "Bilder", position: "left" },
         {
           href: "https://github.com/matteokosina/canada",
           label: "GitHub",

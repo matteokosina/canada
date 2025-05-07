@@ -1,0 +1,43 @@
+.dark {
+    color: white;
+}
+
+.light {
+    color: black;
+}
+
+.pswp-gallery{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.picture{
+    max-width: 12rem;
+    border-radius: 0.5rem;
+}
+
+h1{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.no-images{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #888888;
+}
+
+.binoculars{
+    width: 9rem;
+    height: 9rem;
+    display: block;
+    margin: auto;
+}

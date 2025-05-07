@@ -12,7 +12,6 @@ interface props {
   }[];
 }
 export default function SimpleGallery(props) {
-  console.log('SimpleGallery', props);
   useEffect(() => {
     let lightbox = new PhotoSwipeLightbox({
       gallery: '#' + props.galleryID,

@@ -26,7 +26,6 @@ export default function App() {
                   window.removeEventListener("storage", handleStorageChange);
                 };
               }, []);
-              console.log('imageList', imageList);
           
             return (
                 <Layout title="Galerie" description="Bilder von Kanada">

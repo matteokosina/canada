@@ -9,7 +9,15 @@ const outputPath = path.join(__dirname, '../src/pages/gallery/_generated_.ts');
 const validExtensions = ['.jpg', '.jpeg', '.png', '.webp', '.svg'];
 
 (async () => {
-  const files = await fsp.readdir(imagesDir);
+// Check if imagesDir exists
+try {
+    await fsp.access(imagesDir, fs.constants.F_OK);
+} catch (err) {
+    console.error(`Error: Directory ${imagesDir} does not exist`);
+    process.exit(0);
+}
+
+const files = await fsp.readdir(imagesDir);
 
   const imageObjects = [];
 

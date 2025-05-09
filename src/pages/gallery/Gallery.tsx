@@ -1,15 +1,17 @@
 import React, { Component, useEffect, useState } from 'react';
-import Layout from '@theme/Layout';
-import SimpleGallery from './_Images';
-import { imageList } from './_generated_';
-import NoImages from './NoImages';
+
 import BrowserOnly from '@docusaurus/BrowserOnly';
+import ImageGallery from './ImageGallery';
 
 export default function App() {
       return (
         <BrowserOnly>
           {
             ()=>{
+                const Layout = require('@theme/Layout').default;
+                const { imageList } = require('./_generated_');
+                const NoImages = require('./NoImages').default;
+
               const [isDarkMode, setIsDarkMode] = useState(
                 localStorage.getItem("theme") === "dark"
               );
@@ -31,8 +33,8 @@ export default function App() {
                 <Layout title="Galerie" description="Bilder von Kanada">
                   <h1 className={isDarkMode ? "dark" : "light"}>Bilder von Kanada</h1>
                   {(imageList.length > 0) ? 
-                  <SimpleGallery
-                    galleryID="my-test-gallery"
+                  <ImageGallery
+                    galleryID="image-gallery"
                     images={imageList}
                   />: <NoImages />}
                 </Layout>

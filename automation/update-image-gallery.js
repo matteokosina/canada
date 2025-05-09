@@ -29,7 +29,7 @@ const files = await fsp.readdir(imagesDir);
     try {
       const dimensions = await imageSizeFromFile(filePath);
       imageObjects.push({
-        url: `../img/${file}`, // assumes you serve static/img as /images
+        url: `../pictures/${file}`, // assumes you serve static/img as /images
         width: dimensions.width,
         height: dimensions.height,
       });

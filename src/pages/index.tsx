@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import ImageText from "@/components/Texts/Text";
 import WorldMap from "@/components/ui/world-map";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
+import RecentPost from "../components/RecentPost/RecentPost";
 
 function HomepageHeader() {
     const { siteConfig } = useDocusaurusContext();
@@ -59,6 +60,7 @@ export default function Home(): ReactNode {
                         </p>
                     </div>
                 </BackgroundGradientAnimation>
+                <RecentPost/>
                 <ImageText
                     left={true}
                     title="Kanada"

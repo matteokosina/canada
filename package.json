@@ -5,8 +5,8 @@
   "scripts": {
     "create-post": "node ./automation/create-post.js",
     "docusaurus": "docusaurus",
-    "start": "node ./automation/update-image-gallery.js && docusaurus start",
-    "build": "node ./automation/update-image-gallery.js && docusaurus build && mv ./google5239173c14d537e9.html ./build/google5239173c14d537e9.html",
+    "start": "node ./automation/crawl-recent-post.js && node ./automation/update-image-gallery.js && docusaurus start",
+    "build": "node ./automation/crawl-recent-post.js && node ./automation/update-image-gallery.js && docusaurus build && mv ./google5239173c14d537e9.html ./build/google5239173c14d537e9.html",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -23,12 +23,14 @@
     "dotted-map": "^2.2.3",
     "framer-motion": "^12.4.2",
     "image-size": "^2.0.2",
+    "js-yaml": "^4.1.0",
     "motion": "^12.4.2",
     "next-themes": "^0.4.4",
     "photoswipe": "^5.4.4",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.7.0",

@@ -45,5 +45,5 @@ const files = await fsp.readdir(imagesDir);
     ';\n';
 
   fs.writeFileSync(outputPath, content);
-  console.log('✅ genereated image list successfully');
+  console.log('🏞️ Generated image list successfully');
 })();

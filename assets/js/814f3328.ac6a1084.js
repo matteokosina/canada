@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcanada=self.webpackChunkcanada||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Bald geht\u2019s los! \ud83c\udde8\ud83c\udde6","permalink":"/canada/blog/intro","unlisted":false,"date":"2025-02-12T00:00:00.000Z"}]}')}}]);

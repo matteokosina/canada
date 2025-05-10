@@ -61,7 +61,7 @@ function getMostRecentPost() {
         let authorPictureUrl = '';
         
         try {
-            const file = fs.readFileSync('../blog/authors.yml', 'utf8');
+            const file = fs.readFileSync('./blog/authors.yml', 'utf8');
             const authorsYaml = yaml.load(file);
             
             // Access data by key

@@ -7,3 +7,20 @@ matteo:
   socials:
     github: matteokosina
     linkedin: matteokosina
+marvin:
+  name: Marvin Fuchs
+  title: Dualer Student bei SAP
+  image_url: https://avatars.githubusercontent.com/u/60398702?v=4
+  page: true
+  socials:
+    url: https://marvin-fuchs.de
+    github: habetuz
+    linkedin: https://www.linkedin.com/in/marvin-fuchs-1a366328b/
+simon:
+  name: Simon Wehle
+  title: Dualer Student bei SAP
+  image_url: https://avatars.githubusercontent.com/u/178917726?v=4
+  page: true
+  socials:
+    github: simonwehle
+    linkedin: https://www.linkedin.com/in/simon-wehle/

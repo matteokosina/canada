@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://matteokosina.github.io/canada/blog</id>
+    <title>Rotation Abroad Blog</title>
+    <updated>2025-02-12T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://matteokosina.github.io/canada/blog"/>
+    <subtitle>Rotation Abroad Blog</subtitle>
+    <icon>https://matteokosina.github.io/canada/img/leaf.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Bald geht’s los! 🇨🇦]]></title>
+        <id>https://matteokosina.github.io/canada/blog/intro</id>
+        <link href="https://matteokosina.github.io/canada/blog/intro"/>
+        <updated>2025-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey zusammen! 👋]]></summary>
+        <content type="html"><![CDATA[<p>Hey zusammen! 👋</p>
+<p>Diesen Sommer startet mein großes Abenteuer: Eine Reise nach <strong>Vancouver</strong>! 🌍✈️<br>
+<!-- -->Ich kann es kaum erwarten, die atemberaubende Natur, das urbane Flair und die kanadische Gastfreundschaft zu erleben.</p>
+<p>Gerade bin ich dabei, diese Webseite aufzubauen, um meine Erlebnisse mit euch zu teilen. Bleibt gespannt – hier gibt’s bald Reiseberichte, Fotos und Insider-Tipps! 📸🏞️</p>
+<p>Freut euch mit mir auf eine unvergessliche Zeit! 🚀</p>
+<p>Bis bald!</p>]]></content>
+        <author>
+            <name>Matteo Kosina</name>
+            <uri>https://github.com/matteokosina</uri>
+        </author>
+        <category label="Reise 🧳" term="Reise 🧳"/>
+        <category label="Kanada 🇨🇦" term="Kanada 🇨🇦"/>
+    </entry>
+</feed>

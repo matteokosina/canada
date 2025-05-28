@@ -1,3 +1,3 @@
-// Auto-generated image list
+// Auto-generated media list
 
-export const imageList = [];
+export const mediaList = [];

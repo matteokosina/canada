@@ -1,29 +1,30 @@
 import React, { useState, useEffect } from 'react';
-import './imageGallery.css';
+import './Medium.css';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 interface Props {
   galleryID: string;
-  images: {
+  media: {
+    type: 'image' | 'video';
     url: string;
-    width: number;
-    height: number;
+    width?: number;
+    height?: number;
   }[];
 }
 
-function GalleryInternal({ galleryID, images }: Props) {
+function MediumRender({ galleryID, media }: Props) {
   const [currentIndex, setCurrentIndex] = useState<number | null>(null);
 
   const close = () => setCurrentIndex(null);
 
   const showNext = () => {
     if (currentIndex === null) return;
-    setCurrentIndex((currentIndex + 1) % images.length);
+    setCurrentIndex((currentIndex + 1) % media.length);
   };
 
   const showPrev = () => {
     if (currentIndex === null) return;
-    setCurrentIndex((currentIndex - 1 + images.length) % images.length);
+    setCurrentIndex((currentIndex - 1 + media.length) % media.length);
   };
 
   useEffect(() => {
@@ -41,28 +42,45 @@ function GalleryInternal({ galleryID, images }: Props) {
   return (
     <div>
       <div className="gallery" id={galleryID}>
-        {images.map((image, idx) => (
-          <img
-            key={`${galleryID}-${idx}`}
-            src={image.url}
-            alt={`Image ${idx}`}
-            className="thumbnail"
-            onClick={() => setCurrentIndex(idx)}
-            style={{ width: '150px', height: 'auto', cursor: 'pointer' }}
-          />
+        {media.map((medium, idx) => (
+          medium.type === 'video' ? (
+            <video
+              key={`${galleryID}-${idx}`}
+              src={medium.url}
+              className="thumbnail"
+              onClick={() => setCurrentIndex(idx)}
+              style={{ width: '150px', height: 'auto', cursor: 'pointer' }}
+            />
+          ) : (
+            <img
+              key={`${galleryID}-${idx}`}
+              src={medium.url}
+              alt={`Image ${idx}`}
+              className="thumbnail"
+              onClick={() => setCurrentIndex(idx)}
+              style={{ width: '150px', height: 'auto', cursor: 'pointer' }}
+            />
+          )
         ))}
       </div>
 
-      {currentIndex !== null && (
+      {currentIndex !== null && media.length > 0 && (
         <div className="lightbox-backdrop" onClick={close}>
           <button className="close-button" onClick={(e) => { e.stopPropagation(); close(); }}>×</button>
           <button className="lightbox-arrow left" onClick={(e) => { e.stopPropagation(); showPrev(); }}>‹</button>
+          {(media[currentIndex]?.type == 'video') ? 
+          <video
+            className="lightbox"
+            src={media[currentIndex].url}
+            controls
+            onClick={(e) => e.stopPropagation()}
+          /> : 
           <img
-            src={images[currentIndex].url}
-            className="lightbox-image"
+            src={media[currentIndex].url}
+            className="lightbox"
             alt="Full"
             onClick={(e) => e.stopPropagation()}
-          />
+          />}
           <button className="lightbox-arrow right" onClick={(e) => { e.stopPropagation(); showNext(); }}>›</button>
         </div>
       )}
@@ -70,8 +88,10 @@ function GalleryInternal({ galleryID, images }: Props) {
   );
 }
 
-export default function ImageGallery(props: Props) {
+export default function Medium(props: Props) {
   return (
-    <BrowserOnly>{() => <GalleryInternal {...props} />}</BrowserOnly>
+    <BrowserOnly>
+        {() => <MediumRender {...props} />}
+    </BrowserOnly>
   );
 }

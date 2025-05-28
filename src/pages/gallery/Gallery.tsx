@@ -1,7 +1,7 @@
 import React, { Component, useEffect, useState } from 'react';
 
 import BrowserOnly from '@docusaurus/BrowserOnly';
-import ImageGallery from './ImageGallery';
+import ImageGallery from './Medium';
 
 export default function App() {
       return (
@@ -9,7 +9,7 @@ export default function App() {
           {
             ()=>{
                 const Layout = require('@theme/Layout').default;
-                const { imageList } = require('./_generated_');
+                const { mediaList } = require('./_generated_');
                 const NoImages = require('./NoImages').default;
 
               const [isDarkMode, setIsDarkMode] = useState(
@@ -32,10 +32,10 @@ export default function App() {
             return (
                 <Layout title="Galerie" description="Bilder von Kanada">
                   <h1 className={isDarkMode ? "dark" : "light"}>Bilder von Kanada</h1>
-                  {(imageList.length > 0) ? 
+                  {(mediaList.length > 0) ? 
                   <ImageGallery
                     galleryID="image-gallery"
-                    images={imageList}
+                    media={mediaList}
                   />: <NoImages />}
                 </Layout>
               );

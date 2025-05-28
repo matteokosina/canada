@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { useState, useEffect } from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import { motion } from "framer-motion";
@@ -57,7 +58,7 @@ export default function Home(): ReactNode {
                     <div className="absolute z-40 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl">
                         <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
                             {timeUntil(new Date("2025-06-27"))}
-                        </p>
+                        </p>                   
                     </div>
                 </BackgroundGradientAnimation>
                 <RecentPost/>
@@ -146,4 +147,67 @@ function timeUntil(targetDate: Date): string {
     ${months > 0 ? months == 1 ? months + " Monat, " : months + " Monate, " : ""}
     ${weeks > 0 ? weeks == 1 ? weeks + " Woche, " : weeks + " Wochen, " : ""}
     ${days == 1 ? days + " Tag" : days + " Tage"}`;
+}
+
+async function localStats(): Promise<string> {
+    const time = new Date().toLocaleString('de-DE', {
+        timeZone: 'America/Vancouver',
+        hour: '2-digit',
+        minute: '2-digit'
+    })
+    let weather = await getWeatherData(49.2827, -123.1207); // Vancouver coordinates
+
+    return `${time} Uhr, ${weather.temperature}, ${weather.condition} ${weather.emoji}`;
+}
+
+async function getWeatherData(lat: number, lng: number): Promise<{
+    temperature: string;
+    condition: string;
+    emoji: string;
+}> {
+    try {
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lng}&current=temperature_2m,weather_code`;
+        const response = await fetch(url);
+        const data = await response.json();
+        
+        const temperature = `${Math.round(data.current.temperature_2m)}${data.current_units.temperature_2m}`;
+        
+        // Map weather code to condition and emoji
+        const weatherMapping: Record<number, { condition: string, emoji: string }> = {
+            0: { condition: 'Klar', emoji: '☀️' },
+            1: { condition: 'Überwiegend klar', emoji: '🌤️' },
+            2: { condition: 'Teilweise bewölkt', emoji: '⛅' },
+            3: { condition: 'Bewölkt', emoji: '☁️' },
+            45: { condition: 'Nebel', emoji: '🌫️' },
+            48: { condition: 'Reifnebel', emoji: '🌫️' },
+            51: { condition: 'Leichter Nieselregen', emoji: '🌦️' },
+            53: { condition: 'Mäßiger Nieselregen', emoji: '🌧️' },
+            55: { condition: 'Starker Nieselregen', emoji: '🌧️' },
+            61: { condition: 'Leichter Regen', emoji: '🌦️' },
+            63: { condition: 'Mäßiger Regen', emoji: '🌧️' },
+            65: { condition: 'Starker Regen', emoji: '🌧️' },
+            71: { condition: 'Leichter Schneefall', emoji: '🌨️' },
+            73: { condition: 'Mäßiger Schneefall', emoji: '❄️' },
+            75: { condition: 'Starker Schneefall', emoji: '❄️' },
+            95: { condition: 'Gewitter', emoji: '⛈️' },
+            96: { condition: 'Gewitter mit Hagel', emoji: '🌩️' },
+            99: { condition: 'Starkes Gewitter mit Hagel', emoji: '⛈️' },
+        };
+        
+        const weatherInfo = weatherMapping[data.current.weather_code] || 
+            { condition: '', emoji: '' };
+            
+        return {
+            temperature,
+            condition: weatherInfo.condition,
+            emoji: weatherInfo.emoji
+        };
+    } catch (error) {
+        console.error('Error fetching weather data:', error);
+        return {
+            temperature: '',
+            condition: 'Daten nicht verfügbar',
+            emoji: ''
+        };
+    }
 }

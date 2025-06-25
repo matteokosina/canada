@@ -3,10 +3,24 @@ const path = require("path");
 const readline = require("readline");
 const chalk = require("chalk");
 const { exit } = require("process");
+const { execSync } = require("child_process");
 
 // Paths to the authors.yml and tags.yml files
 const authorsFilePath = path.join(__dirname, "../blog/authors.yml");
 const tagsFilePath = path.join(__dirname, "../blog/tags.yml");
+
+// Helper function tore-crawl recent-posts
+function buildProject() {
+  console.log(chalk.green("🏗️ Re-Building the project to reflect new recent-post..."));
+  try {
+    execSync("npm run update-post-history", { stdio: "inherit" });
+    console.log(chalk.green("✓ Completed successfully!"));
+    exit(0);
+  } catch (error) {
+    console.error(chalk.red("✗ Failed:"), error.message);
+    exit(1);
+  }
+}
 
 function main() {
   readYAMLFile(authorsFilePath, (err, authors) => {
@@ -117,12 +131,12 @@ function askQuestion(question, callback) {
 // Create a markdown file for the blog post
 function createMarkdownFile(author, title, tags) {
   const date = new Date().toISOString().split("T")[0];
-  const firstWord = title.split(" ")[0].toLowerCase();
-  const fileName = `${date}-${firstWord}.md`;
+  const slug = title.toLowerCase().replace(/[^\w\s]/g, '').replace(/\s+/g, '_');
+  const fileName = `${date}-${slug}.md`;
   const filePath = path.join(__dirname, "../blog", fileName);
-
+  
   const content = `---
-slug: ${title}
+slug: ${slug}
 title: ${title}
 authors: ${author}
 tags: [${tags.join(", ")}]
@@ -138,9 +152,11 @@ Write your content here...
       console.error("Error creating markdown file:", err);
     } else {
       console.log(`Markdown file created: ${filePath}`);
+      buildProject();
       exit(0);
     }
   });
+ 
 }
 
 // Run the script

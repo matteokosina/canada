@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import { motion } from "framer-motion";
@@ -46,6 +46,15 @@ function HomepageHeader() {
 }
 
 export default function Home(): ReactNode {
+  const [localStatsData, setLocalStatsData] = useState<string>("");
+
+  useEffect(() => {
+    const fetchLocalStats = async () => {
+      const stats = await localStats();
+      setLocalStatsData(stats);
+    };
+    fetchLocalStats();
+  }, []);
   return (
     <Layout
       title={`Auslandspraxis in Kanada`}
@@ -56,7 +65,7 @@ export default function Home(): ReactNode {
         <BackgroundGradientAnimation>
           <div className="absolute z-40 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl">
             <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
-              {localStats()}
+              {localStatsData}
             </p>
           </div>
         </BackgroundGradientAnimation>

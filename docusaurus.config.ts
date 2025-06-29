@@ -100,6 +100,10 @@ const config: Config = {
               label: "LinkedIn",
               href: "https://www.linkedin.com/in/matteokosina",
             },
+            {
+              label: "GitHub",
+              href: "https://github.com/matteokosina/canada",
+            },
           ],
         },
         {
@@ -110,8 +114,8 @@ const config: Config = {
               to: "/blog",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/matteokosina/canada",
+              label: "Externe Links und APIs",
+              href: "/external-data/links_and_apis",
             },
           ],
         },

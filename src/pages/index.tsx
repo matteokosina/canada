@@ -67,6 +67,14 @@ export default function Home(): ReactNode {
             <p className="bg-clip-text text-transparent drop-shadow-2xl bg-gradient-to-b from-white/80 to-white/20">
               {localStatsData}
             </p>
+            <a
+              href="https://open-meteo.com/"
+              className="absolute bottom-4 right-4 text-xs text-neutral-400 pointer-events-auto"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Weather data by Open-Meteo.com
+            </a>
           </div>
         </BackgroundGradientAnimation>
         <RecentPost />

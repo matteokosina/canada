@@ -16,8 +16,8 @@ export const mediaList = [
   {
     "url": "../media/Flug.jpeg",
     "type": "image",
-    "width": 4284,
-    "height": 5712
+    "width": 4257,
+    "height": 4290
   },
   {
     "url": "../media/KEV-YVR.jpeg",

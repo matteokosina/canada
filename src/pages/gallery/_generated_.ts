@@ -8,12 +8,6 @@ export const mediaList = [
     "height": 3024
   },
   {
-    "url": "../media/FRA.jpeg",
-    "type": "image",
-    "width": 4284,
-    "height": 5712
-  },
-  {
     "url": "../media/Flug.jpeg",
     "type": "image",
     "width": 4257,
@@ -28,7 +22,7 @@ export const mediaList = [
   {
     "url": "../media/Unterkunft.jpg",
     "type": "image",
-    "width": 4284,
-    "height": 5712
+    "width": 4257,
+    "height": 4059
   }
 ];

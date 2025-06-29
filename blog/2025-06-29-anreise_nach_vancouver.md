@@ -18,5 +18,3 @@ Derzeit versuchen wir, den Tag durchzuhalten, um uns an die Zeitverschiebung von
 
 Viele Grüße,  
 Matteo
-
-[Zu den Bildern](https://matteokosina.github.io/canada/gallery/Gallery)

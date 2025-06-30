@@ -61,6 +61,7 @@ function getMostRecentPost() {
       .replace(/^#+\s+.*$/gm, "")
       .replace(/<[^>]*>/g, "")
       .replace(/^import\s+.*$/gm, "");
+
     contentWithoutHeadings = contentWithoutHeadings.replace(/\n/g, "");
 
     // Extract author information from authors.yaml

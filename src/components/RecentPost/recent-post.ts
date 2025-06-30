@@ -1,10 +1,10 @@
 
 export const recentPost = {
-    title: "Anreise",
+    title: "Der erste Tag",
     author: "Matteo Kosina",
     authorAvatar: "https://avatars.githubusercontent.com/u/74454734?v=4",
-    link: "https://matteokosina.github.io/canada/blog/anreise_nach_vancouver",
-    filename: "2025-06-29-anreise_nach_vancouver.mdx",
-    date: "29. Juni 2025",
-    content: 'Am frühen Samstagmorgen um 1:20 Uhr begann unsere Reise ins ferne Kanada. Nach einerZugfahrt zum Frankfurter Flughafen startete von dort unser erster Flug nach Reykjavik,Island. Bei recht kühlen Außentemperaturen mussten wir nicht lange warten, bis unserAnschlussflug nach Vancouver ging. Nach den ersten drei Stunden Flugzeit lagen nunweitere 7,5 Stunden vor uns.Mit wenig Schlaf, aber belohnt durch die beeindruckende Skyline von Vancouver, sind wir schließlich (inklusive aller Koffer 😌) am Flughafen angekommen. Von dort aus machten wir uns mit den "SkyTrains" – oberirdischen Zügen, die auf brückenähnlichen Konstruktionen fahren – auf den Weg zu unserer Unterkunft. Diese beeindruckte uns sofort mit ihrer Lage: im 26. Stock eines 54-stöckigen Hochhauses, was uns einen atemberaubenden Blick über die Silhouette von Vancouver bot. Mehr dazu gibt es in einem kommenden Blog-Beitrag.Derzeit versuchen wir, den Tag durchzuhalten, um uns an die Zeitverschiebung von -9 Stunden zu gewöhnen 🛌. Wir freuen uns schon riesig auf die spannenden Tage, die vor uns liegen, und darauf, die Stadt zu erkunden.Viele Grüße,  Matteo'
+    link: "https://matteokosina.github.io/canada/blog/der_erste_tag",
+    filename: "2025-06-30-der_erste_tag.md",
+    date: "30. Juni 2025",
+    content: 'Unser Tag begann mit einem Spaziergang über einen Farmers-Market 🛍️. Dort konnten wir dem Angebot von 2 kg Blaubeeren 🫐 nicht widerstehen und mussten sie einfach mitnehmen. Danach machten wir uns auf den Weg ins City Center, wo wir die berühmte Gastown Steam Clock ⏰ in Vancouver bewunderten.Später besuchten wir den Hafen, an dem zahlreiche Wasserflugzeuge ✈️ starteten und landeten. Nicht weit entfernt ragten die beeindruckenden Wolkenkratzer 🏙️ in den Himmel. Nachdem wir uns durch die Straßen Vancouvers treiben ließen, machten wir uns auf den Heimweg.Den Abend ließen wir mit einer Joggingrunde 🏃‍♂️ ausklingen. Die Landschaft, die von oben so flach aussah, entpuppte sich dabei als überraschend hügelig 🏞️ – eine perfekte Gelegenheit, uns noch einmal richtig auszupowern.Bis bald,  Matteo'
 };

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://matteokosina.github.io/canada/blog</id>
+    <title>Rotation Abroad Blog</title>
+    <updated>2025-06-29T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://matteokosina.github.io/canada/blog"/>
+    <subtitle>Rotation Abroad Blog</subtitle>
+    <icon>https://matteokosina.github.io/canada/img/leaf.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Anreise]]></title>
+        <id>https://matteokosina.github.io/canada/blog/anreise_nach_vancouver</id>
+        <link href="https://matteokosina.github.io/canada/blog/anreise_nach_vancouver"/>
+        <updated>2025-06-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Anreise nach Vancouver ✈️]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="anreise-nach-vancouver-️">Anreise nach Vancouver ✈️<a href="https://matteokosina.github.io/canada/blog/anreise_nach_vancouver#anreise-nach-vancouver-%EF%B8%8F" class="hash-link" aria-label="Direkter Link zur Anreise nach Vancouver ✈️" title="Direkter Link zur Anreise nach Vancouver ✈️">​</a></h2>
+<p>Am frühen Samstagmorgen um 1:20 Uhr begann unsere Reise ins ferne Kanada. Nach einer
+Zugfahrt zum Frankfurter Flughafen startete von dort unser erster Flug nach Reykjavik,
+Island. Bei recht kühlen Außentemperaturen mussten wir nicht lange warten, bis unser
+Anschlussflug nach Vancouver ging. Nach den ersten drei Stunden Flugzeit lagen nun
+weitere 7,5 Stunden vor uns.</p>
+<p>Mit wenig Schlaf, aber belohnt durch die beeindruckende Skyline von Vancouver, sind wir schließlich (inklusive aller Koffer 😌) am Flughafen angekommen. Von dort aus machten wir uns mit den "SkyTrains" – oberirdischen Zügen, die auf brückenähnlichen Konstruktionen fahren – auf den Weg zu unserer Unterkunft. Diese beeindruckte uns sofort mit ihrer Lage: im 26. Stock eines 54-stöckigen Hochhauses, was uns einen atemberaubenden Blick über die Silhouette von Vancouver bot. Mehr dazu gibt es in einem kommenden Blog-Beitrag.
+Derzeit versuchen wir, den Tag durchzuhalten, um uns an die Zeitverschiebung von -9 Stunden zu gewöhnen 🛌. Wir freuen uns schon riesig auf die spannenden Tage, die vor uns liegen, und darauf, die Stadt zu erkunden.</p>
+<p>Viele Grüße,<br>
+<!-- -->Matteo</p>]]></content>
+        <author>
+            <name>Matteo Kosina</name>
+            <uri>https://github.com/matteokosina</uri>
+        </author>
+        <category label="Reise 🧳" term="Reise 🧳"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Bald geht’s los! 🇨🇦]]></title>
+        <id>https://matteokosina.github.io/canada/blog/intro</id>
+        <link href="https://matteokosina.github.io/canada/blog/intro"/>
+        <updated>2025-06-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hey zusammen! 👋]]></summary>
+        <content type="html"><![CDATA[<p>Hey zusammen! 👋</p>
+<p>Diesen Sommer startet mein großes Abenteuer: Eine Auslandspraxisphase in <strong>Vancouver</strong>! 🌍✈️<br>
+<!-- -->Ich kann es kaum erwarten, die atemberaubende Natur, das urbane Flair und die kanadische Gastfreundschaft zu erleben.</p>
+<p>Gerade bin ich dabei, diese Webseite aufzubauen, um meine Erlebnisse mit euch zu teilen. Bleibt gespannt – hier gibt’s bald Reiseberichte und Fotos! 📸🏞️</p>
+<p>Freut euch mit mir auf eine unvergessliche Zeit! 🚀</p>
+<p>Bis bald!</p>]]></content>
+        <author>
+            <name>Matteo Kosina</name>
+            <uri>https://github.com/matteokosina</uri>
+        </author>
+        <category label="Reise 🧳" term="Reise 🧳"/>
+        <category label="Kanada 🇨🇦" term="Kanada 🇨🇦"/>
+    </entry>
+</feed>

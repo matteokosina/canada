@@ -30,5 +30,35 @@ export const mediaList = [
     "type": "image",
     "width": 3449,
     "height": 3950
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/hafen.jpeg",
+    "type": "image",
+    "width": 3024,
+    "height": 4032
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/hafen_hochhaeuser.jpeg",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/marvin_matteo_blueberries.jpeg",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/steam_clock.jpeg",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/steam_clock2.jpeg",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
   }
 ];

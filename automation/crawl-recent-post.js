@@ -57,7 +57,10 @@ function getMostRecentPost() {
     const cleanContent = content.trim().replace(/<!--[\s\S]*?-->/g, "");
 
     // Remove markdown headings from content
-    let contentWithoutHeadings = cleanContent.replace(/^#+\s+.*$/gm, "");
+    let contentWithoutHeadings = cleanContent
+      .replace(/^#+\s+.*$/gm, "")
+      .replace(/<[^>]*>/g, "")
+      .replace(/^import\s+.*$/gm, "");
     contentWithoutHeadings = contentWithoutHeadings.replace(/\n/g, "");
 
     // Extract author information from authors.yaml
@@ -85,7 +88,7 @@ function getMostRecentPost() {
       content: contentWithoutHeadings,
       filename: mostRecentFile,
       link: `https://matteokosina.github.io/canada/blog/${filenameWithoutDate.replace(
-        ".md",
+        /\.(md|mdx)$/,
         ""
       )}`,
     };

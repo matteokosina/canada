@@ -40,7 +40,7 @@ fs.readdir(mediaFolder, (err, files) => {
       // Compress and convert to webp
       sharp(filePath)
         .resize(fixedWidth, fixedHeight, { fit: "cover" })
-        .webp({ quality: 80 })
+        .webp({ quality: 60 })
         .toFile(outputFilePath)
         .catch((err) => {
           console.error(`Error processing file ${file}:`, err);

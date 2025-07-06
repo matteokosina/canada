@@ -82,19 +82,19 @@ export default function Home(): ReactNode {
           left={true}
           title="Kanada"
           text="Kanada – das zweitgrößte Land der Erde – lockt mit einer unglaublichen Vielfalt an Landschaften und Erlebnissen. Von den majestätischen Rocky Mountains im Westen bis zu den malerischen Küsten im Osten bietet Kanada atemberaubende Naturerlebnisse.  Pulsierende Metropolen wie Toronto, Montreal und Vancouver bieten Kultur und kulinarische Genüsse.  Ob Wandern in Nationalparks, Skifahren in Weltklasse-Skigebieten,  das Beobachten von Walen oder das Erkunden charmanter Städte – Kanada hält für jeden Geschmack etwas bereit.  Die Freundlichkeit der Kanadier und die Weite des Landes machen eine Reise nach Kanada zu einem unvergesslichen Erlebnis."
-          imageUrl="./img/canada-patch.png"
+          imageUrl="./img/canada-patch.webp"
         />
         <ImageText
           left={false}
           title="Vancouver"
           text="Vancouver, die Perle an Kanadas Pazifikküste, lockt mit einer einzigartigen Mischung aus urbanem Leben und atemberaubender Natur. Eingebettet zwischen den Coast Mountains und dem Pazifischen Ozean bietet die Stadt eine spektakuläre Kulisse und ein mildes Klima.  Die rund 706.000 Einwohner Vancouvers (Stand: Volkszählung 2022)  spiegeln die kulturelle Vielfalt Kanadas wider –  Menschen aus aller Welt haben hier ein Zuhause gefunden, was sich in der pulsierenden Kunstszene, dem vielseitigen kulinarischen Angebot und der weltoffenen Atmosphäre widerspiegelt.  Die Bewohner Vancouvers, oft als entspannt und naturverbunden beschrieben, schätzen die vielen Möglichkeiten für Outdoor-Aktivitäten, die die Stadt bietet:  Wandern, Radfahren, Segeln, Skifahren – in und um Vancouver ist alles möglich.  Diese Mischung aus Naturverbundenheit und urbanem Lifestyle macht Vancouver zu einem besonders attraktiven Reiseziel. "
-          imageUrl="./img/people-patch.png"
+          imageUrl="./img/people-patch.webp"
         />
         <ImageText
           left={true}
           title="Vancouvers Natur"
           text="Vancouver ist ein Paradies für Naturliebhaber. Die Stadt ist umgeben von einer atemberaubenden Landschaft, die von dichten Regenwäldern über schneebedeckte Berge bis hin zum Pazifischen Ozean reicht. Im Stanley Park, einer der größten Stadtparks Nordamerikas, kann man zwischen majestätischen Douglasien und Zedern wandern und dabei den Blick auf die Skyline der Stadt und das Meer genießen. Die Küstengewässer beheimaten eine reiche Tierwelt, darunter Orcas, Seehunde und Seelöwen. Mit etwas Glück kann man sogar Wale beobachten. Im Frühling und Sommer verwandeln blühende Kirschbäume die Stadt in ein farbenprächtiges Meer. Die nahegelegenen North Shore Mountains bieten im Winter ideale Bedingungen zum Skifahren und Snowboarden und im Sommer locken sie Wanderer und Mountainbiker."
-          imageUrl="./img/bear-patch.png"
+          imageUrl="./img/bear-patch.webp"
         />
       </main>
     </Layout>

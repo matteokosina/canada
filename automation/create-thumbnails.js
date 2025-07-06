@@ -42,9 +42,6 @@ fs.readdir(mediaFolder, (err, files) => {
         .resize(fixedWidth, fixedHeight, { fit: "cover" })
         .webp({ quality: 80 })
         .toFile(outputFilePath)
-        .then(() => {
-          console.log(`Thumbnail created: ${outputFilePath}`);
-        })
         .catch((err) => {
           console.error(`Error processing file ${file}:`, err);
         });

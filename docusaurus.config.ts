@@ -8,7 +8,7 @@ import aliasPlugin from "./plugins/alias-config.cjs";
 const config: Config = {
   title: "Rotation Abroad",
   tagline: "Follow me on my adventure in Vancouver",
-  favicon: "img/leaf.png",
+  favicon: "img/leaf.webp",
 
   // Set the production url of your site here
   url: "https://matteokosina.github.io",
@@ -73,12 +73,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/leaf.png",
+    image: "img/leaf.webp",
     navbar: {
       title: "Rotation Abroad",
       logo: {
         alt: "Logo",
-        src: "img/leaf.png",
+        src: "img/leaf.webp",
       },
       items: [
         { to: "/blog", label: "Blog", position: "left" },

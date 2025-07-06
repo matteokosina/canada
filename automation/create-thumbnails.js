@@ -34,7 +34,7 @@ fs.readdir(mediaFolder, (err, files) => {
         fileExtension
       )
     ) {
-      const outputFileName = `${fileNameWithoutExt}_thumbnails.webp`;
+      const outputFileName = `${fileNameWithoutExt}_thumbnail.webp`;
       const outputFilePath = path.join(thumbnailsFolder, outputFileName);
 
       // Compress and convert to webp

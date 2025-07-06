@@ -50,4 +50,5 @@ fs.readdir(mediaFolder, (err, files) => {
         });
     }
   });
+  console.log("🤙🏼 Thumbnail generation completed.");
 });

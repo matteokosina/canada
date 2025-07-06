@@ -29,10 +29,12 @@ const validExtensions = [...validImageExtensions, ...validVideoExtensions];
 
     const filePath = path.join(imagesDir, file);
     const isVideo = validVideoExtensions.includes(ext);
+    const thumbnailPath = file.replace(".webp", "_thumbnail.webp");
 
     try {
       const mediaObject = {
         url: `https://matteokosina.github.io/canada/media/${file}`,
+        thumbnail_url: `https://matteokosina.github.io/canada/thumbnails/${thumbnailPath}`,
         type: isVideo ? "video" : "image",
       };
 

@@ -8,6 +8,7 @@ interface Props {
   media: {
     type: "image" | "video";
     url: string;
+    thumbnail_url: string;
     width?: number;
     height?: number;
   }[];
@@ -55,7 +56,7 @@ function MediumRender({ galleryID, media }: Props) {
           ) : (
             <LazyLoadImage
               key={`${galleryID}-${idx}`}
-              src={medium.url}
+              src={medium.thumbnail_url || medium.url}
               className="thumbnail"
               onClick={() => setCurrentIndex(idx)}
               alt={`${galleryID}-${idx}`}

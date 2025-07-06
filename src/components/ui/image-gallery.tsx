@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import BrowserOnly from "@docusaurus/BrowserOnly";
 import "./image-gallery.css";
 import { ArrowLeft, ArrowRight } from "lucide-react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 interface ImageGalleryProps {
   images: { src: string; caption: string }[];
@@ -43,20 +44,20 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ images }) => {
           <div style={{ textAlign: "center" }}>
             {images.length === 1 ? (
               <>
-                <img
+                <LazyLoadImage
                   src={images[0].src}
                   alt={images[0].caption}
-                  style={{ maxWidth: "100%", height: "auto" }}
+                  width="500"
                 />
                 <div style={{ marginTop: "10px" }}>{images[0].caption}</div>
               </>
             ) : (
               <>
                 <div style={{ position: "relative", display: "inline-block" }}>
-                  <img
+                  <LazyLoadImage
                     src={images[currentIndex].src}
                     alt={images[currentIndex].caption}
-                    style={{ maxWidth: "100%", height: "auto" }}
+                    width="500"
                   />
                   <button
                     onClick={handlePrev}

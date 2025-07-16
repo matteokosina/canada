@@ -102,7 +102,7 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/matteokosina/canada",
+              href: "https://github.com/matteokosina",
             },
           ],
         },

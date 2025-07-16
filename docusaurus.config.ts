@@ -120,7 +120,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Matteo Kosina. Built with ❤️, Docusaurus and Shadcn.`,
+      copyright: `Matteo Kosina. Built with ❤️, Docusaurus and Shadcn for family + friends.`,
     },
     prism: {
       theme: prismThemes.github,

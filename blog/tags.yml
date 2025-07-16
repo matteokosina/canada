@@ -7,3 +7,23 @@ canada:
   label: Kanada 🇨🇦
   permalink: /canada
   description: Entdecke die Schönheit Kanadas mit uns
+
+freetime:
+  label: Freizeit 🏖️
+  permalink: /freetime
+  description: Wir teilen unsere Freizeitaktivitäten
+
+food:
+  label: Essen 🍽️
+  permalink: /food
+  description: Unsere kulinarischen Erlebnisse und Rezepte
+
+photography:
+  label: Fotografie 📸
+  permalink: /photography
+  description: Unsere fotografischen Abenteuer und Tipps
+
+mountains:
+  label: Berge ⛰️
+  permalink: /mountains
+  description: Erkunde die majestätischen Berge mit uns

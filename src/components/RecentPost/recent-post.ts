@@ -1,10 +1,10 @@
 
 export const recentPost = {
-    title: "Kitsilano Beach 🏖️",
+    title: "Grouse Mountain ⛰️",
     author: "Matteo Kosina",
     authorAvatar: "https://avatars.githubusercontent.com/u/74454734?v=4",
-    link: "https://matteokosina.github.io/canada/blog/kitsilano_beach",
-    filename: "2025-07-16-kitsilano_beach.mdx",
-    date: "16. Juli 2025",
-    content: 'Am vergangenen Wochenende haben wir die warmen Temperaturen 🌞 (27,7 °C Höchsttemperatur) genutzt, um die Strände in unserer Umgebung zu erkunden. Dabei hat es uns zum Kitsilano Beach verschlagen. Von dort aus hat man Zugang zum Pazifik 🌊 und einen beeindruckenden Blick auf die Berge 🏔️. Dreht man sich nur einmal um, sieht man wieder die Hochhäuser 🏙️ – dieser Kontrast zwischen Natur und Stadt ist wirklich beeindruckend!Die Wassertemperatur hat uns positiv überrascht. Wir hatten sehr kühle Temperaturen erwartet, doch das Wasser war angenehm warm. Allerdings hat uns die Klarheit des Wassers zunächst zögern lassen, ob wir hineingehen sollten – aufgrund der vielen Algen und der trüben Sicht. Trotzdem haben wir es gewagt und sind hineingesprungen! 🏖️Bei nächster Gelegenheit möchten wir uns noch die anderen Strände anschauen, wie zum Beispiel den English Bay 🌅, der sich gegenüber vom Kitsilano Beach befindet.Bis dahin,Matteo ✌🏼'
+    link: "https://matteokosina.github.io/canada/blog/grouse_mountain_",
+    filename: "2025-07-20-grouse_mountain_.mdx",
+    date: "20. Juli 2025",
+    content: 'Gestern haben wir eine Wanderung auf den Grouse Mountain unternommen! 🥾🌲 Der erste Abschnitt ging über zahlreiche Treppen und 800 Höhenmeter auf nur etwa 2 Kilometern Strecke. Oben angekommen, erreichten wir die Gondelstation und hatten einen (leider sehr nebligen) Blick über Vancouver 🌫️, der an klaren Tagen sogar bis in die USA reichen soll. 🇨🇦🇺🇸Von dort aus setzten wir unsere Wanderung fort und erklommen weitere Gipfel, darunter den Dam Mountain und schließlich den Goat Mountain 🐐⛰️, der mit 1.401 Metern der höchste Punkt unserer Tour war. Leider blieb uns die spektakuläre Aussicht aufgrund des dichten Nebels größtenteils verborgen. Doch auf dem Rückweg klarte es langsam auf, und wir konnten zumindest einige Abschnitte ohne Nebel genießen. 🌤️Insgesamt legten wir etwa 1.300 Höhenmeter zurück – eine anstrengende, aber lohnenswerte Route! 💪✨Bis bald,  Matteo'
 };

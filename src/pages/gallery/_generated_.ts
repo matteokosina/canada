@@ -191,6 +191,13 @@ export const mediaList = [
     "height": 4284
   },
   {
+    "url": "https://matteokosina.github.io/canada/media/IMG_4365.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4365_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
     "url": "https://matteokosina.github.io/canada/media/KEV-YVR.webp",
     "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/KEV-YVR_thumbnail.webp",
     "type": "image",

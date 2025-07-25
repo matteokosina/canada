@@ -36,6 +36,9 @@
     "react-markdown": "^10.1.0",
     "sharp": "^0.34.2"
   },
+  "overrides": {
+    "webpack": "5.96.1"
+  },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.7.0",
     "@docusaurus/tsconfig": "3.7.0",

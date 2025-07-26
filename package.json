@@ -5,10 +5,11 @@
   "scripts": {
     "create-post": "node ./automation/create-post.js",
     "create-thumbnails": "node ./automation/create-thumbnails.js",
+    "create-post-images": "node ./automation/create-post-images.js",
     "update-post-history": "node ./automation/crawl-recent-post.js",
     "docusaurus": "docusaurus",
     "start": "node ./automation/crawl-recent-post.js && node ./automation/update-image-gallery.js && docusaurus start",
-    "build": "node ./automation/crawl-recent-post.js && node ./automation/update-image-gallery.js && node ./automation/create-thumbnails.js && docusaurus build && mv ./google5239173c14d537e9.html ./build/google5239173c14d537e9.html",
+    "build": "node ./automation/crawl-recent-post.js && node ./automation/update-image-gallery.js && node ./automation/create-thumbnails.js && node ./automation/create-post-images.js &&  docusaurus build && mv ./google5239173c14d537e9.html ./build/google5239173c14d537e9.html",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

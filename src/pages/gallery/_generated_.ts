@@ -247,9 +247,18 @@ export const mediaList = [
     "height": 3024
   },
   {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4468.MOV",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4468.MOV",
-    "type": "video"
+    "url": "https://matteokosina.github.io/canada/media/IMG_4466.jpg",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4466.jpg",
+    "type": "image",
+    "width": 3024,
+    "height": 4032
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/IMG_4466.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4466_thumbnail.webp",
+    "type": "image",
+    "width": 3024,
+    "height": 4032
   },
   {
     "url": "https://matteokosina.github.io/canada/media/KEV-YVR.webp",

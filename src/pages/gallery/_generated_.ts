@@ -198,6 +198,60 @@ export const mediaList = [
     "height": 5712
   },
   {
+    "url": "https://matteokosina.github.io/canada/media/IMG_4418.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4418_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/IMG_4419.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4419_thumbnail.webp",
+    "type": "image",
+    "width": 5712,
+    "height": 4284
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/IMG_4426.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4426_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/IMG_4438.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4438_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/IMG_4452.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4452_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/IMG_4460.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4460_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/IMG_4462.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4462_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/IMG_4468.MOV",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4468.MOV",
+    "type": "video"
+  },
+  {
     "url": "https://matteokosina.github.io/canada/media/KEV-YVR.webp",
     "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/KEV-YVR_thumbnail.webp",
     "type": "image",

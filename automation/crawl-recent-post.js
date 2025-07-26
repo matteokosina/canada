@@ -130,7 +130,7 @@ export const recentPost = {
 
   try {
     fs.writeFileSync(logFilePath, logEntry);
-    console.log(`🤖Crawled recent blog successfully: ${postData.title}`);
+    console.log(`🤖 Crawled recent blog successfully: ${postData.title}`);
   } catch (error) {
     console.error("❌ Error writing to log file:", error);
   }

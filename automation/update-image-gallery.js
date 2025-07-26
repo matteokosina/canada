@@ -54,7 +54,7 @@ const validExtensions = [...validImageExtensions, ...validVideoExtensions];
   mediaObjects.sort((a, b) => {
     const aIndex = parseInt(path.basename(a.url).split(".")[0], 10);
     const bIndex = parseInt(path.basename(b.url).split(".")[0], 10);
-    return aIndex - bIndex;
+    return bIndex - aIndex;
   });
 
   const content =

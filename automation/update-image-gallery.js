@@ -51,6 +51,12 @@ const validExtensions = [...validImageExtensions, ...validVideoExtensions];
     }
   }
 
+  mediaObjects.sort((a, b) => {
+    const aIndex = parseInt(path.basename(a.url).split(".")[0], 10);
+    const bIndex = parseInt(path.basename(b.url).split(".")[0], 10);
+    return aIndex - bIndex;
+  });
+
   const content =
     "// Auto-generated media list\n\n" +
     "export const mediaList = " +

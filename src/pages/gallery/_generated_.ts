@@ -2,318 +2,318 @@
 
 export const mediaList = [
   {
-    "url": "https://matteokosina.github.io/canada/media/DSC02407.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/DSC02407_thumbnail.webp",
-    "type": "image",
-    "width": 3400,
-    "height": 6047
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/DSC02417.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/DSC02417_thumbnail.webp",
-    "type": "image",
-    "width": 3322,
-    "height": 5905
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/DSC02437.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/DSC02437_thumbnail.webp",
-    "type": "image",
-    "width": 4024,
-    "height": 6048
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/DSC02656.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/DSC02656_thumbnail.webp",
-    "type": "image",
-    "width": 5021,
-    "height": 2824
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/DSC02667.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/DSC02667_thumbnail.webp",
-    "type": "image",
-    "width": 3841,
-    "height": 5928
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/DSC02711.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/DSC02711_thumbnail.webp",
-    "type": "image",
-    "width": 3994,
-    "height": 6027
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/DSC02724.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/DSC02724_thumbnail.webp",
-    "type": "image",
-    "width": 2890,
-    "height": 5140
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/DSC02727.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/DSC02727_thumbnail.webp",
-    "type": "image",
-    "width": 4190,
-    "height": 2356
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/FRA-KEF.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/FRA-KEF_thumbnail.webp",
+    "url": "https://matteokosina.github.io/canada/media/1.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/1_thumbnail.webp",
     "type": "image",
     "width": 4032,
     "height": 3024
   },
   {
-    "url": "https://matteokosina.github.io/canada/media/Flug.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/Flug_thumbnail.webp",
+    "url": "https://matteokosina.github.io/canada/media/2.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/2_thumbnail.webp",
+    "type": "image",
+    "width": 5712,
+    "height": 4284
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/3.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/3_thumbnail.webp",
     "type": "image",
     "width": 4257,
     "height": 4290
   },
   {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4191.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4191_thumbnail.webp",
-    "type": "image",
-    "width": 4284,
-    "height": 5712
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4193.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4193_thumbnail.webp",
-    "type": "image",
-    "width": 5712,
-    "height": 4284
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4194.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4194_thumbnail.webp",
-    "type": "image",
-    "width": 4284,
-    "height": 5712
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4199.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4199_thumbnail.webp",
-    "type": "image",
-    "width": 5712,
-    "height": 4284
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4200.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4200_thumbnail.webp",
-    "type": "image",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4210.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4210_thumbnail.webp",
-    "type": "image",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4213.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4213_thumbnail.webp",
-    "type": "image",
-    "width": 4284,
-    "height": 5712
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4218.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4218_thumbnail.webp",
-    "type": "image",
-    "width": 5712,
-    "height": 4284
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4219.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4219_thumbnail.webp",
-    "type": "image",
-    "width": 5712,
-    "height": 4284
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4229.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4229_thumbnail.webp",
-    "type": "image",
-    "width": 4925,
-    "height": 3076
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4230.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4230_thumbnail.webp",
-    "type": "image",
-    "width": 5198,
-    "height": 3462
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4231.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4231_thumbnail.webp",
-    "type": "image",
-    "width": 5014,
-    "height": 3164
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4314.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4314_thumbnail.webp",
-    "type": "image",
-    "width": 4284,
-    "height": 5712
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4319.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4319_thumbnail.webp",
-    "type": "image",
-    "width": 5712,
-    "height": 4284
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4323.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4323_thumbnail.webp",
-    "type": "image",
-    "width": 4284,
-    "height": 5712
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4324.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4324_thumbnail.webp",
-    "type": "image",
-    "width": 4284,
-    "height": 5712
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4326.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4326_thumbnail.webp",
-    "type": "image",
-    "width": 5712,
-    "height": 4284
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4365.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4365_thumbnail.webp",
-    "type": "image",
-    "width": 4284,
-    "height": 5712
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4418.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4418_thumbnail.webp",
-    "type": "image",
-    "width": 4284,
-    "height": 5712
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4419.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4419_thumbnail.webp",
-    "type": "image",
-    "width": 5712,
-    "height": 4284
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4426.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4426_thumbnail.webp",
-    "type": "image",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4438.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4438_thumbnail.webp",
-    "type": "image",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4452.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4452_thumbnail.webp",
-    "type": "image",
-    "width": 4284,
-    "height": 5712
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4460.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4460_thumbnail.webp",
-    "type": "image",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4462.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4462_thumbnail.webp",
-    "type": "image",
-    "width": 4032,
-    "height": 3024
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/IMG_4466.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/IMG_4466_thumbnail.webp",
-    "type": "image",
-    "width": 3024,
-    "height": 4032
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/KEV-YVR.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/KEV-YVR_thumbnail.webp",
-    "type": "image",
-    "width": 5712,
-    "height": 4284
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/PXL_20250706_003251265.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/PXL_20250706_003251265_thumbnail.webp",
-    "type": "image",
-    "width": 4032,
-    "height": 2268
-  },
-  {
-    "url": "https://matteokosina.github.io/canada/media/Unterkunft.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/Unterkunft_thumbnail.webp",
+    "url": "https://matteokosina.github.io/canada/media/4.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/4_thumbnail.webp",
     "type": "image",
     "width": 4257,
     "height": 4059
   },
   {
-    "url": "https://matteokosina.github.io/canada/media/aufzug.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/aufzug_thumbnail.webp",
+    "url": "https://matteokosina.github.io/canada/media/5.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/5_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/6.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/6_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/7.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/7_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/8.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/8_thumbnail.webp",
     "type": "image",
     "width": 3449,
     "height": 3950
   },
   {
-    "url": "https://matteokosina.github.io/canada/media/hafen.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/hafen_thumbnail.webp",
+    "url": "https://matteokosina.github.io/canada/media/9.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/9_thumbnail.webp",
+    "type": "image",
+    "width": 5712,
+    "height": 4284
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/10.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/10_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/11.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/11_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/12.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/12_thumbnail.webp",
     "type": "image",
     "width": 3024,
     "height": 4032
   },
   {
-    "url": "https://matteokosina.github.io/canada/media/hafen_hochhaeuser.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/hafen_hochhaeuser_thumbnail.webp",
+    "url": "https://matteokosina.github.io/canada/media/13.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/13_thumbnail.webp",
+    "type": "image",
+    "width": 3400,
+    "height": 6047
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/14.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/14_thumbnail.webp",
+    "type": "image",
+    "width": 3322,
+    "height": 5905
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/15.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/15_thumbnail.webp",
+    "type": "image",
+    "width": 4024,
+    "height": 6048
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/16.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/16_thumbnail.webp",
     "type": "image",
     "width": 4284,
     "height": 5712
   },
   {
-    "url": "https://matteokosina.github.io/canada/media/marvin_matteo_blueberries.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/marvin_matteo_blueberries_thumbnail.webp",
+    "url": "https://matteokosina.github.io/canada/media/17.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/17_thumbnail.webp",
+    "type": "image",
+    "width": 5712,
+    "height": 4284
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/18.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/18_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/19.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/19_thumbnail.webp",
     "type": "image",
     "width": 4284,
     "height": 5712
   },
   {
-    "url": "https://matteokosina.github.io/canada/media/steam_clock.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/steam_clock_thumbnail.webp",
+    "url": "https://matteokosina.github.io/canada/media/20.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/20_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 2268
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/21.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/21_thumbnail.webp",
     "type": "image",
     "width": 4284,
     "height": 5712
   },
   {
-    "url": "https://matteokosina.github.io/canada/media/steam_clock2.webp",
-    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/steam_clock2_thumbnail.webp",
+    "url": "https://matteokosina.github.io/canada/media/22.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/22_thumbnail.webp",
     "type": "image",
     "width": 4284,
     "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/23.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/23_thumbnail.webp",
+    "type": "image",
+    "width": 5198,
+    "height": 3462
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/24.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/24_thumbnail.webp",
+    "type": "image",
+    "width": 4925,
+    "height": 3076
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/25.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/25_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/26.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/26_thumbnail.webp",
+    "type": "image",
+    "width": 5712,
+    "height": 4284
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/27.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/27_thumbnail.webp",
+    "type": "image",
+    "width": 5712,
+    "height": 4284
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/28.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/28_thumbnail.webp",
+    "type": "image",
+    "width": 5014,
+    "height": 3164
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/29.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/29_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/30.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/30_thumbnail.webp",
+    "type": "image",
+    "width": 5712,
+    "height": 4284
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/31.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/31_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/32.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/32_thumbnail.webp",
+    "type": "image",
+    "width": 5712,
+    "height": 4284
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/33.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/33_thumbnail.webp",
+    "type": "image",
+    "width": 5021,
+    "height": 2824
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/34.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/34_thumbnail.webp",
+    "type": "image",
+    "width": 3841,
+    "height": 5928
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/35.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/35_thumbnail.webp",
+    "type": "image",
+    "width": 3994,
+    "height": 6027
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/36.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/36_thumbnail.webp",
+    "type": "image",
+    "width": 2890,
+    "height": 5140
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/37.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/37_thumbnail.webp",
+    "type": "image",
+    "width": 4190,
+    "height": 2356
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/38.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/38_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/39.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/39_thumbnail.webp",
+    "type": "image",
+    "width": 5712,
+    "height": 4284
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/40.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/40_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/41.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/41_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/42.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/42_thumbnail.webp",
+    "type": "image",
+    "width": 4284,
+    "height": 5712
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/43.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/43_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/44.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/44_thumbnail.webp",
+    "type": "image",
+    "width": 4032,
+    "height": 3024
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/45.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/45_thumbnail.webp",
+    "type": "image",
+    "width": 3024,
+    "height": 4032
   }
 ];

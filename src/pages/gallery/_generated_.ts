@@ -2,6 +2,27 @@
 
 export const mediaList = [
   {
+    "url": "https://matteokosina.github.io/canada/media/53.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/53_thumbnail.webp",
+    "type": "image",
+    "width": 2268,
+    "height": 1476
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/52.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/52_thumbnail.webp",
+    "type": "image",
+    "width": 2630,
+    "height": 1496
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/51.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/51_thumbnail.webp",
+    "type": "image",
+    "width": 5184,
+    "height": 3888
+  },
+  {
     "url": "https://matteokosina.github.io/canada/media/50.webp",
     "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/50_thumbnail.webp",
     "type": "image",

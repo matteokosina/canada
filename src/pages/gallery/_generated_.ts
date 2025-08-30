@@ -2,6 +2,69 @@
 
 export const mediaList = [
   {
+    "url": "https://matteokosina.github.io/canada/media/62.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/62_thumbnail.webp",
+    "type": "image",
+    "width": 3455,
+    "height": 5718
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/61.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/61_thumbnail.webp",
+    "type": "image",
+    "width": 5001,
+    "height": 3125
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/60.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/60_thumbnail.webp",
+    "type": "image",
+    "width": 6048,
+    "height": 3778
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/59.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/59_thumbnail.webp",
+    "type": "image",
+    "width": 5685,
+    "height": 3196
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/58.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/58_thumbnail.webp",
+    "type": "image",
+    "width": 5906,
+    "height": 3803
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/57.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/57_thumbnail.webp",
+    "type": "image",
+    "width": 5819,
+    "height": 3272
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/56.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/56_thumbnail.webp",
+    "type": "image",
+    "width": 4000,
+    "height": 6000
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/55.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/55_thumbnail.webp",
+    "type": "image",
+    "width": 5637,
+    "height": 3170
+  },
+  {
+    "url": "https://matteokosina.github.io/canada/media/54.webp",
+    "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/54_thumbnail.webp",
+    "type": "image",
+    "width": 6048,
+    "height": 3606
+  },
+  {
     "url": "https://matteokosina.github.io/canada/media/53.webp",
     "thumbnail_url": "https://matteokosina.github.io/canada/thumbnails/53_thumbnail.webp",
     "type": "image",

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcanada=self.webpackChunkcanada||[]).push([[9912],{4762:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/canada/blog/page/2","page":2,"postsPerPage":10,"totalPages":2,"totalCount":13,"previousPage":"/canada/blog","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

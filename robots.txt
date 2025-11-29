@@ -1,0 +1,3 @@
+Sitemap: https://matteokosina.github.io/canada/sitemap.xml
+User-agent: *
+Disallow:
